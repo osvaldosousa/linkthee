@@ -1,0 +1,13 @@
+body, h1, h2, div, ul, section, li {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Dosis', sans-serif;
+	background-color: hsla(244, 13%, 21%, 0.966);
+}
+
+ol, ul {
+	list-style: none;
+}

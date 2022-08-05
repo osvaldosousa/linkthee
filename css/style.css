@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+:root {
+  --bd1:hsla(249, 15%, 56%, 0.795);
+  --bd2:hsla(270, 65%, 75%, 0.986);
+}
+
+.main-perfil {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+.perfil-foto {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 2px solid var(--bd1);
+}
+
+.main-title {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.main-links {
+  width: 320px;
+  text-align: center;
+}
+
+.links-itens {
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  color: white;
+  background-color: gray;
+  border: 2px solid var(--bd2);
+  border-radius: 4px;
+  box-shadow: 2px 2px 10px black;
+}
+
+.main-social {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.social-icons {
+  margin: 20px;
+}
